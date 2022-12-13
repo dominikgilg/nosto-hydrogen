@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "prepare": "echo hallo welt"
+    "prepare": "echo hallo welt && npm run build"
   },
   "files": [
     "dist",
