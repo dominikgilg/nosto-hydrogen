@@ -18,5 +18,13 @@
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react": "^3.0.0",
     "vite": "^4.0.0"
+  },
+  "main": "./dist/index.es.client.js",
+  "module": "./dist/index.es.client.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.client.js",
+      "require": "./dist/index.umd.client.js"
+    }
   }
 }
