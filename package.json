@@ -8,6 +8,10 @@
     "preview": "vite preview",
     "prepare": "echo hallo welt"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
