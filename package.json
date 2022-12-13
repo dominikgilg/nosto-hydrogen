@@ -1,5 +1,5 @@
 {
-  "name": "nosto-hydrogen",
+  "name": "@nosto/nosto-hydrogen",
   "private": true,
   "version": "0.0.0",
   "type": "module",
