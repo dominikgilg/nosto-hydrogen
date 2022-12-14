@@ -6,13 +6,13 @@ export default defineConfig({
   plugins: [react()],
   build: {
     lib: {
-      entry: resolve(__dirname, "src/index.client.js"),
-      name: "@nosto/nosto-hydrogen",
+      entry: resolve(__dirname, "src/index.client.ts"),
+      name: "@nosto/nosto-react",
       formats: ["es", "umd"],
-      fileName: "index.client",
+      fileName: (format) => `index.${format}.client.js`,
     },
     rollupOptions: {
-      external: ["react", "react-dom", "@shopify/hydrogen"],
+      external: ["react", "react-dom", "snakize"],
       output: {
         globals: {
           react: "React",
