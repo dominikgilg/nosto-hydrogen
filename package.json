@@ -1,15 +1,18 @@
 {
   "name": "@nosto/nosto-hydrogen",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
-  "files": [
-    "dist"
-  ],
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
+    "preview": "vite preview",
     "prepare": "vite build"
   },
-  "main": "./dist/nosto-hydrogen.cjs",
-  "module": "./dist/nosto-hydrogen.mjs",
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -21,14 +24,12 @@
     "@vitejs/plugin-react": "^3.0.0",
     "vite": "^4.0.0"
   },
+  "main": "./dist/index.client.js",
+  "module": "./dist/index.client.js",
   "exports": {
     ".": {
-      "import": "./dist/nosto-hydrogen.mjs",
-      "require": "./dist/nosto-hydrogen.cjs"
-    },
-    "./secondary": {
-      "import": "./dist/secondary.mjs",
-      "require": "./dist/secondary.cjs"
+      "import": "./dist/index.client.js",
+      "require": "./dist/index.client.js"
     }
   }
 }
