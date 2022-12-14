@@ -5,7 +5,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "prepare": "vite build"
   },
   "main": "./dist/nosto-hydrogen.cjs",
   "module": "./dist/nosto-hydrogen.mjs",
