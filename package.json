@@ -2,12 +2,17 @@
   "name": "@nosto/nosto-hydrogen",
   "private": true,
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "prepare": "vite build"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
