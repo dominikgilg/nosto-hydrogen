@@ -1,5 +1,5 @@
 {
-  "name": "@nosto/nosto-react",
+  "name": "@nosto/nosto-hydrogen",
   "type": "module",
   "files": [
     "dist"
