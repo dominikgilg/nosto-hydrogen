@@ -9,10 +9,6 @@
     "preview": "vite preview",
     "prepare": "vite build"
   },
-  "files": [
-    "dist",
-    "src"
-  ],
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
